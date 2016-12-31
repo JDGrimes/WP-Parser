@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "35e2478f04c97c1520f6966fc6486e52",
+    "content-hash": "24344a38dc71603d50e045da85cb77dd",
     "packages": [
         {
             "name": "composer/installers",
@@ -202,7 +202,7 @@
         },
         {
             "name": "phpdocumentor/reflection",
-            "version": "3.0.1",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpDocumentor/Reflection.git",
@@ -252,7 +252,7 @@
                 "reflection",
                 "static analysis"
             ],
-            "time": "2016-05-21T08:42:32+00:00"
+            "time": "2016-05-21 08:42:32"
         },
         {
             "name": "phpdocumentor/reflection-docblock",
@@ -427,6 +427,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
+        "phpdocumentor/reflection": 20,
         "scribu/lib-posts-to-posts": 20,
         "scribu/scb-framework": 20
     },
