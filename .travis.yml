@@ -28,8 +28,3 @@ install: composer install --no-dev
 
 script:
   - phpunit
-
-cache:
-  directories:
-    - vendor
-    - $HOME/.composer/cache
